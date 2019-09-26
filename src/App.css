@@ -1,0 +1,296 @@
+.first{
+  background-image:url('https://github.githubassets.com/images/modules/site/heroes/simple-codelines.svg');
+  background-size:cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding:60px 0;
+  margin:none;
+  display:flex;
+  justify-content: space-around;
+  background-color: black;
+  height:70vh;
+  align-items: center;
+ 
+}
+.first .first-content{
+  width:40%;
+  display:flex;
+flex-direction: column;
+
+color:white;
+}
+.first-content h1{
+  font-weight: bolder;
+  font-size:70px;
+  margin-bottom: none;
+  padding-bottom: none;
+}
+.first .form{
+display:flex;
+flex-direction: column;
+background-color:white;
+padding:10px 20px;
+
+width:30%;
+align-items:center;
+}
+.form .form-content{
+  width:100%;
+  display:flex;
+  flex-direction: column;
+margin-top:10px;
+align-self: flex-start;
+}
+.form-content input{
+  padding:10px;
+  text-align: center;
+  color:black;
+  width:90%;
+  margin-top:5px;
+border-radius: 3px;
+}
+.form button{
+  background-color:rgb(13, 200, 13);
+  padding:15px;
+  color:white;
+  font-size:20px;
+  border:2px solid rgb(13, 200, 13);
+  border-radius: 5px;
+}
+.second{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  padding:20px;
+}
+.second h3{
+  font-weight: bolder;
+  font-size:30px;
+
+}
+.second p{
+  
+  font-size:20px;
+}
+.second button{
+  background-color:rgb(13, 200, 13);
+  padding:15px;
+  color:white;
+  font-size:20px;
+  border:2px solid rgb(13, 200, 13);
+  border-radius: 5px;
+}
+.third,.fourth{
+ width:100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+ padding: 40px 0;
+}
+.third .third-content{
+  width:80%;
+  background-image: url('images/bc.jpg');
+  background-size:cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+ padding:40px;
+  color:white;
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height:60vh;
+border-radius: 10px;
+}
+.third-content h3{
+font-size:40px;
+
+}
+.third-content button{
+  padding:30px;
+  font-size:15px;
+  background-color:transparent;
+  border:2px solid blue;
+  color:white;
+  border-radius: 5px;
+}
+
+.fourth .fourth-content{
+  width:100%;
+  display:flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+padding:40px 0;
+
+
+
+}
+.fourth-content ul{
+  width: 80%;
+  text-align: center;
+  
+
+}
+.fourth-content li{
+  display: inline-block;
+  width:13%;
+  list-style:none;
+  text-align: center;
+ 
+
+ 
+}
+.fourth-content li img{
+  width:70%;
+ margin:none;
+ text-align: center;
+
+
+}
+.fourth-content p{
+  color:#8c939b;
+  font-size:30px;
+}
+.fifth,.eight{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding:40px 0;
+}
+.fifth h1,.eight h1{
+  font-size:40px;
+}
+.fifth button,.eight button{
+  padding:30px;
+  font-size:20px;
+  background-color:transparent;
+  border:2px solid blue;
+  color:blue;
+  border-radius: 5px;
+}
+.sixth,.nine{
+  width:100%;
+  display:flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding:30px 0;
+}
+.sixth .picture{
+  width:50%;
+}
+.sixth .sixth-content, .nine .nine-content{
+  width:30%;
+}
+.sixth-content .h1-p, .nine-content .h1-p{
+  margin:5px 0;
+ cursor: pointer;
+  padding:10px;
+}
+.h1-p:hover{
+  border:1px solid black;
+
+}
+
+
+.second,.third,.fourth,.fifth,.sixth,.seventh,.eight,.nine,.ten{
+  margin:40px 0;
+}
+.eight p{
+  margin-top:0;
+  font-size:30px;
+  width:70%;
+  text-align: center;
+}
+
+.nine .picture{
+  width:50%;
+}
+.picture img{
+  width:100%;
+}
+.ten .eight{
+  margin-bottom: 0;
+}
+.ten .girl{
+  width:80%;
+  text-align: center;
+}
+.eleven{
+  width:100%;
+  display:flex;
+  flex-direction: column;
+  justify-content:space-between;
+ align-items: center;
+  height:70vh;
+  background-color: black;
+  color:white;
+}
+.eleven .elements{
+ width:70%;
+  display:flex;
+  align-items: center;
+  justify-content: space-evenly;
+  
+  
+  
+  
+  
+  
+
+}
+.eleven .elements .elements-content{
+  width:100%;
+  display:flex;
+  flex-direction: column;
+  margin:40px;
+
+  
+}
+.eleven .eleven-content{
+  font-size: 30px;
+  width:80%;
+  text-align: center;
+  
+}
+.elements-content input{
+  width:90%;
+  border-radius: 5px;
+  padding:20px;
+}
+.eleven .elements button{
+  width:90%;
+  padding:30px;
+  border:2px solid white;
+  border-radius: 5px;
+  color:white;
+  background-color:rgb(31, 246, 31);
+  font-size:20px;
+}
+.twelve{
+  width:100%;
+  display:flex;
+  justify-content: space-around;
+  height:60vh;
+
+}
+.twelve h1{
+  width:50%;
+}
+.twelve .twe-content{
+  width:100%;
+  display:flex;
+  justify-content: space-evenly;
+  
+ 
+  
+}
+.twe-content ul li{
+  color:black;
+  list-style: none;
+  margin:20px
+}
+.first{
+  margin-top:none;
+}
